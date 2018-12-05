@@ -1,0 +1,158 @@
+<view class="container pb_150">
+  <!--banner轮播图-->
+  <view class="banner_wrap">
+    <swiper class="home-swiper" autoplay="true" bindchange="changDot" interval="4000">
+      <swiper-item wx:for="{{bannerList}}" wx:for-item="item" wx:key="index">
+        <image src="{{item.img}}"></image>
+      </swiper-item>
+    </swiper>
+    <view class="dots">
+      <block wx:for="{{bannerList}}" wx:key="index">
+        <view class="dot {{index == swiperCurrent?'actives':''}}"></view>
+      </block>
+    </view>
+    <view class="search">
+      <icon type="search" color="#fff" size="20" class="ml_10"></icon>
+      <text class="color_f fs_14 ml_5">搜索</text>
+    </view>
+  </view>
+  <!--导航-->
+  <view class="nav_wrap width_96 bg_white radius_5 pb_10">
+    <navigator hover-class="none" url="../ability/ability" open-type="redirect">
+      <view class="nav_list">
+        <image src="/images/nav_01.png"></image>
+        <text>牛人</text>
+      </view>
+    </navigator>
+    <navigator hover-class="none" url="../message/message?navIndex=1" open-type="navigate">
+      <view class="nav_list">
+        <image src="/images/nav_02.png"></image>
+        <text>合伙人</text>
+      </view>
+    </navigator>
+    <navigator hover-class="none" url="../release/release" open-type="navigate">
+      <view class="nav_list">
+        <image src="/images/nav_03.png"></image>
+        <text>发布</text>
+      </view>
+    </navigator>
+    <navigator hover-class="none" url="../message/message?navIndex=0" open-type="navigate">
+      <view class="nav_list">
+        <image src="/images/nav_04.png"></image>
+        <text>聊天</text>
+      </view>
+    </navigator>
+    <navigator hover-class="none" url="../message/message?navIndex=2" open-type="navigate">
+      <view class="nav_list">
+        <image src="/images/nav_05.png"></image>
+        <text>消息</text>
+      </view>
+    </navigator>
+    <navigator hover-class="none" url="../personal/personal" open-type="redirect">
+      <view class="nav_list">
+        <image src="/images/nav_06.png"></image>
+        <text>个人</text>
+      </view>
+    </navigator>
+  </view>
+  <!--列表-->
+  <view class="list_wrap width_96">
+    <view class="list_item">
+      <navigator url="../userinfo/userinfo" open-type="navigate">
+        <view class="item_left">
+          <image src="/images/list.jpg"></image>
+        </view>
+        <view class="item_right">
+          <text>姓名:小孙</text>
+          <text>职业:后期剪辑</text>
+          <text>当这才相当于进入小程序，若是用户点击拒绝。那么就跳转到提示页面，提示用户授权。</text>
+        </view>
+      </navigator>
+    </view>
+    <view class="list_item list_right">
+      <navigator url="../userinfo/userinfo" open-type="navigate">
+        <view class="item_left">
+          <image src="/images/list.jpg"></image>
+        </view>
+        <view class="item_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>当这才相当于进入小程序，若是用户点击拒绝。当这才相当于进入小程序，若是用户点击拒绝。当这才相当于进入小程序，若是用户点击拒绝。那么就跳转到提示页面，提示用户授权。</text>
+        </view>
+      </navigator>
+    </view>
+    <view class="list_item">
+      <navigator url="../userinfo/userinfo" open-type="navigate">
+        <view class="item_left">
+          <image src="/images/list.jpg"></image>
+        </view>
+        <view class="item_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>当这才相当于进入小程序，若是用户点击拒绝。那么就跳转到提示页面，提示用户授权。</text>
+        </view>
+      </navigator>
+    </view>
+    <view class="list_item">
+      <navigator url="../userinfo/userinfo" open-type="navigate">
+        <view class="item_left">
+          <image src="/images/list.jpg"></image>
+        </view>
+        <view class="item_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>当这才相当于进入小程序，若是用户点击拒绝。那么就跳转到提示页面，提示用户授权。</text>
+        </view>
+      </navigator>
+    </view>
+    <view class="list_item list_right">
+      <navigator url="../userinfo/userinfo" open-type="navigate">
+        <view class="item_left">
+          <image src="/images/list.jpg"></image>
+        </view>
+        <view class="item_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>当这才相当于进入小程序，若是用户点击拒绝。当这才相当于进入小程序，若是用户点击拒绝。当这才相当于进入小程序，若是用户点击拒绝。那么就跳转到提示页面，提示用户授权。</text>
+        </view>
+      </navigator>
+    </view>
+    <view class="list_item">
+      <navigator url="../userinfo/userinfo" open-type="navigate">
+        <view class="item_left">
+          <image src="/images/list.jpg"></image>
+        </view>
+        <view class="item_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>当这才相当于进入小程序，若是用户点击拒绝。那么就跳转到提示页面，提示用户授权。</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+  <!--底部-->
+  <view class="footer">
+    <view class="foot_nav">
+      <view class="footnav_item cur">
+        <image src="/images/footnavcur_01.png"></image>
+        <text>首页</text>
+      </view>
+    </view>
+    <view class="foot_nav">
+      <view class="footnav_item">
+        <navigator hover-class="none" url="../personal/personal" open-type="redirect">
+          <image src="/images/footnav_02.png"></image>
+          <text>个人</text>
+        </navigator>
+      </view>
+    </view>
+    <view class="foot_nav">
+      <view class="footnav_item">
+        <navigator hover-class="none" url="../ability/ability" open-type="redirect">
+          <image src="/images/footnav_03.png"></image>
+          <text>牛人</text>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

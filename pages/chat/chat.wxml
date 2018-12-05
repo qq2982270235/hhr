@@ -1,0 +1,42 @@
+
+<view class="container">
+  <scroll-view scroll-y scroll-with-animation class="chat-content" scroll-top="{{ scrollTop }}" scroll-into-view="{{ lastId }}">
+    <block wx:for="{{ messages }}" wx:for-item="item" wx:key="messages{{ index }}">
+      <view id="{{ item.id }}" class="bubble_container" wx:if="{{ item.messageType === 1 }}">
+        <view class="icon">
+          <view class="caret_left"></view>
+          <view class="photo">
+            <image src="{{ item.url }}" style="width:36px;height:36px;"></image>
+          </view>
+        </view>
+        <view class="content">
+          <text>{{ item.message }}</text>
+        </view>
+      </view>
+      <view id="{{ item.id }}" class="container_right" wx:if="{{ item.messageType === 0 }}">
+        <view class="content_right">
+          <text>{{ item.message }}</text>
+        </view>
+        <view class="icon_right">
+          <view class="photo">
+            <image src="{{ item.url }}" style="width:36px;height:36px;"></image>
+          </view>
+          <view class="caret_right"></view>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+
+  <!--底部发送-->
+  <form class="chat_foot">
+    <view class="chat_main">
+      <view class="chat_left">
+        <input value="{{ msg }}" cursor-spacing="16" adjust-position="{{ true }}" cursor="16" confirm-type="send" confirm-hold="{{ true }}" bindinput="onInput" bindconfirm="send" bindfocus="onFocus" />
+      </view>
+      <view class="chat_right">
+        <image src="/images/add.png" bindtap="send"></image>
+        <button class="btn fs_14 color_f">发送</button>
+      </view>
+    </view>
+  </form>
+</view>

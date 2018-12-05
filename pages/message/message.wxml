@@ -1,0 +1,228 @@
+<view class="container">
+  <view class="nav color_f fs_14">
+    <view class="nav_main">
+      <view class="nav_list {{navIndex==0?'cur':''}}" data-index="0" bindtap="changeNav">聊天</view>
+      <view class="nav_list {{navIndex==1?'cur':''}}" data-index="1" bindtap="changeNav">合伙人</view>
+      <view class="nav_list {{navIndex==2?'cur':''}}" data-index="2" bindtap="changeNav">消息</view>
+    </view>
+  </view>
+  <!--聊天-->
+  <view class="message_wrap" hidden="{{navIndex!=0}}">
+    <navigator url="../chat/chat" open-type="navigate">
+      <view class="general_list">
+        <view class="list_left">
+          <image src="/images/header.png"></image>
+          <text></text>
+        </view>
+        <view class="list_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../chat/chat" open-type="navigate">
+      <view class="general_list">
+        <view class="list_left">
+          <image src="/images/header.png"></image>
+          <text></text>
+        </view>
+        <view class="list_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>我当心的去爱别人，因为比较不会泛滥。</text>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../chat/chat" open-type="navigate">
+      <view class="general_list">
+        <view class="list_left">
+          <image src="/images/header.png"></image>
+          <text></text>
+        </view>
+        <view class="list_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../chat/chat" open-type="navigate">
+      <view class="general_list">
+        <view class="list_left">
+          <image src="/images/header.png"></image>
+          <text></text>
+        </view>
+        <view class="list_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../chat/chat" open-type="navigate">
+      <view class="general_list">
+        <view class="list_left">
+          <image src="/images/header.png"></image>
+        </view>
+        <view class="list_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../chat/chat" open-type="navigate">
+      <view class="general_list">
+        <view class="list_left">
+          <image src="/images/header.png"></image>
+        </view>
+        <view class="list_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <!--合伙人-->
+  <view class="message_wrap" hidden="{{navIndex!=1}}">
+    <view class="search_wrap">
+      <view class="search_main">
+        <icon type="search" size="20" color="#fff"></icon>
+        <input type="text" name="" value="" />
+      </view>
+    </view>
+    <view class="nav_bar">
+      <view class="bar_list {{barIndex==0?'cur':''}}" data-index="0" bindtap="changeBar">
+        <image src="/images/lookme_icon.png"></image>
+        <text>看过我的</text>
+      </view>
+      <view class="bar_list {{barIndex==1?'cur':''}}" data-index="1" bindtap="changeBar">
+        <image src="/images/folleme_icon.png"></image>
+        <text>我关注的</text>
+      </view>
+      <view class="bar_list border_none {{barIndex==2?'cur':''}}" data-index="2" bindtap="changeBar">
+        <image src="/images/follow_icon.png"></image>
+        <text>关注我的</text>
+      </view>
+    </view>
+    <view class="bar_wrap" hidden="{{barIndex!=0}}">
+      <navigator url="../userinfo/userinfo" open-type="navigate">
+        <view class="general_list">
+          <view class="list_left">
+            <image src="/images/header.png"></image>
+          </view>
+          <view class="list_right">
+            <text>姓名:谢文东</text>
+            <text>职业:老板</text>
+            <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class="bar_wrap" hidden="{{barIndex!=1}}">
+      <navigator url="../userinfo/userinfo" open-type="navigate">
+        <view class="general_list">
+          <view class="list_left">
+            <image src="/images/header.png"></image>
+          </view>
+          <view class="list_right">
+            <text>姓名:向问天</text>
+            <text>职业:运营</text>
+            <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class="bar_wrap" hidden="{{barIndex!=2}}">
+      <navigator url="../userinfo/userinfo" open-type="navigate">
+        <view class="general_list">
+          <view class="list_left">
+            <image src="/images/header.png"></image>
+          </view>
+          <view class="list_right">
+            <text>姓名:韩非</text>
+            <text>职业:主管</text>
+            <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+  <!--消息-->
+  <view class="message_wrap" hidden="{{navIndex!=2}}">
+    <navigator url="../userinfo/userinfo" open-type="navigate">
+      <view class="general_list">
+        <view class="list_left">
+          <image src="/images/header.png"></image>
+        </view>
+        <view class="list_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../userinfo/userinfo" open-type="navigate">
+      <view class="general_list">
+        <view class="list_left">
+          <image src="/images/header.png"></image>
+        </view>
+        <view class="list_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../userinfo/userinfo" open-type="navigate">
+      <view class="general_list">
+        <view class="list_left">
+          <image src="/images/header.png"></image>
+        </view>
+        <view class="list_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../userinfo/userinfo" open-type="navigate">
+      <view class="general_list">
+        <view class="list_left">
+          <image src="/images/header.png"></image>
+        </view>
+        <view class="list_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../userinfo/userinfo" open-type="navigate">
+      <view class="general_list">
+        <view class="list_left">
+          <image src="/images/header.png"></image>
+        </view>
+        <view class="list_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../userinfo/userinfo" open-type="navigate">
+      <view class="general_list">
+        <view class="list_left">
+          <image src="/images/header.png"></image>
+        </view>
+        <view class="list_right">
+          <text>姓名:东方彧卿</text>
+          <text>职业:设计</text>
+          <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

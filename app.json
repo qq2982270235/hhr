@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/cover/cover",
+    "pages/index/index",
+    
+    "pages/chat/chat",
+    "pages/signin/signin",
+    "pages/personal/personal",
+    "pages/userinfo/userinfo",
+    "pages/message/message",
+    "pages/calendar/calendar",
+    "pages/release/release",
+    "pages/argument/argument",
+    "pages/ability/ability"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b50029",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

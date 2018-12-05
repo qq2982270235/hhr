@@ -1,0 +1,90 @@
+<view class="container pb_150">
+  <!--用户信息-->
+  <view class="user_info">
+    <view class="info_left fl fs_14 color_f">
+      <text>姓名:东方彧卿</text>
+      <text>职业:设计主管</text>
+      <text>出生年月:2018-11-08</text>
+      <text>联系电话:13800000000</text>
+    </view>
+    <view class="info_right fr">
+      <image src="https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTK1HkZumyH9pM8J2hial7574FIYziaI72eJmasia60MQzgTPia1KdicLHrxPCEzficO9ZHBOicf1tSyduOVg/132"></image>
+    </view>
+  </view>
+  <!--导航-->
+  <view class="nav">
+    <view class="nav_list cur">
+      <image src="/images/person_icon.png"></image>
+      <text>个人信息</text>
+    </view>
+    <view class="nav_list" bindtap="jumpChat">
+      <image src="/images/chat_icon.png"></image>
+      <text>沟通</text>
+    </view>
+    <view class="nav_list" bindtap="followFriend">
+      <image src="/images/follow_icon.png"></image>
+      <text>关注</text>
+    </view>
+    <view class="nav_list border_none" bindtap="addFriend">
+      <image src="/images/addfriend_icon.png"></image>
+      <text>添加好友</text>
+    </view>
+  </view>
+  <!--个人信息-->
+  <view class="person_wrap">
+    <view class="user_list">
+      <view class="user_item">性别:男</view>
+      <view class="user_item">婚姻状况:已婚</view>
+      <view class="user_item">籍贯:北京市朝阳区</view>
+      <view class="user_item">户口所在地:北京市</view>
+      <view class="user_item">学历:博士</view>
+      <view class="user_item">毕业日期:2018/09/15</view>
+      <view class="user_item">政治面貌:党员</view>
+      <view class="user_item">毕业院校:北京大学</view>
+      <view class="user_item">专业:影视传媒</view>
+    </view>
+    <view class="user_title">个人能力信息</view>
+    <view class="user_list">
+      <view class="user_item">英语水平:国家八级</view>
+      <view class="user_item">普通话:二级甲</view>
+      <view class="user_item">计算机:国家三级</view>
+      <view class="user_item">软件:AI PS DW CDR MYSQL</view>
+    </view>
+    <view class="user_title">社会经历信息</view>
+    <view class="user_list user_special">
+      <view class="user_item">2014年6月10-2018年5月01，北京思维设计有限公司</view>
+      <view class="user_item">2014年6月10-2018年5月01，北京思维设计有限公司</view>
+      <view class="user_item">2014年6月10-2018年5月01，北京思维设计有限公司</view>
+      <view class="user_item">2014年6月10-2018年5月01，北京思维设计有限公司</view>
+    </view>
+    <view class="user_title">合作意向</view>
+    <view class="user_list user_special">
+      <view class="user_item">我避开无事时过分热络的友谊，这使我的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</view>
+    </view>
+  </view>
+  <!--底部导航栏-->
+  <view class="footer">
+    <view class="foot_nav">
+      <view class="footnav_item">
+        <navigator hover-class="none" url="../index/index">
+          <image src="/images/footnav_01.png"></image>
+          <text>首页</text>
+        </navigator>
+      </view>
+    </view>
+    <view class="foot_nav">
+      <view class="footnav_item cur">
+        <image src="/images/footnavcur_02.png"></image>
+        <text>个人</text>
+      </view>
+    </view>
+    <view class="foot_nav">
+      <view class="footnav_item ">
+        <navigator hover-class="none" url="../ability/ability">
+          <image src="/images/footnav_03.png"></image>
+          <text>牛人</text>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

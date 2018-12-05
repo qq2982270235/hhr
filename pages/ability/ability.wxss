@@ -1,0 +1,55 @@
+@import '../../components/style/footer.wxss';
+page{
+  background: #dbdbdb;
+}
+.general_list{
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  display: flex;
+  overflow: hidden;
+  margin-top:16rpx;
+  background: #fff;
+}
+.general_list .list_left{
+  width: 160rpx;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index:1;
+}
+.general_list .list_left image{
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 100%;
+}
+.general_list .list_left text{
+  position: absolute;
+  top:50%;
+  right:20rpx;
+  z-index:10;
+  width: 20rpx;
+  height: 20rpx;
+  margin-top:-70rpx;
+  border-radius: 100%;
+  background: #00963f;
+}
+.general_list .list_right{
+  margin-left:20rpx;
+  flex: 1;
+}
+.general_list .list_right text{
+  display: block;
+  font-size: 26rpx;
+}
+.general_list .list_right text:last-child{
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: normal !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

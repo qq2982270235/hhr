@@ -1,0 +1,65 @@
+page{
+  background: #ddd;
+}
+.list{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom:40rpx; 
+  background: #fff;
+  border-radius: 40rpx;
+}
+.list.list_last{
+  border-radius: 20rpx;
+}
+.list input{
+  width: 96%;
+  margin:0 auto;
+  height: 70rpx;
+  color: #585858;
+  font-size: 28rpx;
+  line-height: 70rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list text{
+  width: 96%;
+  margin:0 auto;
+  height: 70rpx;
+  color: #585858;
+  font-size: 28rpx;
+  line-height: 70rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list text::after{
+  content: "";
+  width: 22rpx;
+  height: 22rpx;
+  margin-right:15rpx;
+  margin-bottom:6rpx;
+  border-right:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  transform: rotate(45deg)
+}
+.list textarea{
+  width: 96%;
+  height:400rpx;
+  margin:0 auto;
+  padding:10px 0;
+  background: #fff;
+  overflow: hidden;
+  font-size: 28rpx;
+  color: #585858;
+  text-align: justify;
+  line-height: 40rpx;
+}
+.btn{
+  width: 200rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 40rpx;
+  background: #b50029;
+}

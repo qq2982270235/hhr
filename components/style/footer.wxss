@@ -1,0 +1,43 @@
+.footer{
+  width: 100%;
+  height: 86rpx;
+  position:fixed;
+  bottom:0;
+  z-index:10;
+  background: #dbdbdb;
+}
+.footer .foot_nav{
+  width: 33.3333%;
+  height:100%;
+  float:left;
+}
+.footer .foot_nav navigator{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.footer .foot_nav .footnav_item{
+  width: 120rpx;
+  height:110rpx;
+  display: flex;
+  overflow: hidden;
+  border-radius: 50%;
+  margin:-40rpx auto 0;
+  background: #dbdbdb;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.footer .foot_nav image{
+  width: 41rpx; 
+  height: 41rpx;
+ 
+}
+.footer .foot_nav text{
+  font-size: 28rpx;
+  margin-top:4rpx;
+}
+.footer .foot_nav .cur text{
+  color: #b40028;
+}

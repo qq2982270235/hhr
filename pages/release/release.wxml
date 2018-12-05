@@ -1,0 +1,18 @@
+<view class="container width_96">
+  <view class="mt_20 mb_10 fs_15 bg_none">需求选项</view>
+  <view class="list">
+    <input type="text" name="" value="" placeholder="请填写职位" placeholder-style="color:#585858"></input>
+  </view>
+  <view class="list" bindtap="ageSelect">
+    <text>{{ageText}}</text>
+  </view>
+  <view class="list" bindtap="sexSelect">
+    <text>{{sexText}}</text>
+  </view>
+  <view class="list list_last">
+    <textarea placeholder="请输入详细信息" placeholder-style="color:#585858" bindblur="infoInsert" value="{{infoText}}"></textarea>
+  </view>
+  <view class="list bg_none">
+    <button class="btn fr color_f fs_14" hover-class="none">发布</button>
+  </view>
+</view>

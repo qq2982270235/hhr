@@ -1,0 +1,7 @@
+<!--fengmian.wxml-->
+<view class="test">
+  <image src='/images/logoa.png'></image>
+</view>
+<view class="text">
+  <image src="/images/testa.jpg"></image>
+</view>

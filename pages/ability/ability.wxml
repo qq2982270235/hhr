@@ -1,0 +1,135 @@
+<view class="container pb_150">
+  <navigator url="../userinfo/userinfo" open-type="navigate">
+    <view class="general_list">
+      <view class="list_left">
+        <image src="/images/header.png"></image>
+      </view>
+      <view class="list_right">
+        <text>姓名:东方彧卿</text>
+        <text>职业:设计</text>
+        <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+      </view>
+    </view>
+  </navigator>
+  <navigator url="../userinfo/userinfo" open-type="navigate">
+    <view class="general_list">
+      <view class="list_left">
+        <image src="/images/header.png"></image>
+      </view>
+      <view class="list_right">
+        <text>姓名:东方彧卿</text>
+        <text>职业:设计</text>
+        <text>我避开无事时过分热络的友谊，- 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+      </view>
+    </view>
+  </navigator>
+  <navigator url="../userinfo/userinfo" open-type="navigate">
+    <view class="general_list">
+      <view class="list_left">
+        <image src="/images/header.png"></image>
+      </view>
+      <view class="list_right">
+        <text>姓名:东方彧卿</text>
+        <text>职业:设计</text>
+        <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+      </view>
+    </view>
+  </navigator>
+  <navigator url="../userinfo/userinfo" open-type="navigate">
+    <view class="general_list">
+      <view class="list_left">
+        <image src="/images/header.png"></image>
+      </view>
+      <view class="list_right">
+        <text>姓名:东方彧卿</text>
+        <text>职业:设计</text>
+        <text>我避开无事时过分热络的友谊，这使我的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+      </view>
+    </view>
+  </navigator>
+  <navigator url="../userinfo/userinfo" open-type="navigate">
+    <view class="general_list">
+      <view class="list_left">
+        <image src="/images/header.png"></image>
+      </view>
+      <view class="list_right">
+        <text>姓名:东方彧卿</text>
+        <text>职业:设计</text>
+        <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+      </view>
+    </view>
+  </navigator>
+  <navigator url="../userinfo/userinfo" open-type="navigate">
+    <view class="general_list">
+      <view class="list_left">
+        <image src="/images/header.png"></image>
+      </view>
+      <view class="list_right">
+        <text>姓名:东方彧卿</text>
+        <text>职业:设计</text>
+        <text>我避开无事时过分热络的友谊，这使我的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+      </view>
+    </view>
+  </navigator>
+  <navigator url="../userinfo/userinfo" open-type="navigate">
+    <view class="general_list">
+      <view class="list_left">
+        <image src="/images/header.png"></image>
+      </view>
+      <view class="list_right">
+        <text>姓名:东方彧卿</text>
+        <text>职业:设计</text>
+        <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+      </view>
+    </view>
+  </navigator>
+  <navigator url="../userinfo/userinfo" open-type="navigate">
+    <view class="general_list">
+      <view class="list_left">
+        <image src="/images/header.png"></image>
+      </view>
+      <view class="list_right">
+        <text>姓名:东方彧卿</text>
+        <text>职业:设计</text>
+        <text>我避开无事时过分热络的友谊，这使我的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+      </view>
+    </view>
+  </navigator>
+  <navigator url="../userinfo/userinfo" open-type="navigate">
+    <view class="general_list">
+      <view class="list_left">
+        <image src="/images/header.png"></image>
+      </view>
+      <view class="list_right">
+        <text>姓名:东方彧卿</text>
+        <text>职业:设计</text>
+        <text>我避开无事时过分热络的友谊，这使我少些负担和承诺。我不多说无谓的闲言，这使我觉得清畅。------ 我尽可能不去缅怀往事，因为来时的路不可能回头。我当心的去爱别人，因为比较不会泛滥。</text>
+      </view>
+    </view>
+  </navigator>
+  <!--底部-->
+  <view class="footer">
+    <view class="foot_nav">
+      <view class="footnav_item">
+        <navigator hover-class="none" url="../index/index" open-type="redirect">
+          <image src="/images/footnav_01.png"></image>
+          <text>首页</text>
+        </navigator>
+      </view>
+    </view>
+    <view class="foot_nav">
+      <view class="footnav_item">
+        <navigator hover-class="none" url="../personal/personal" open-type="redirect">
+          <image src="/images/footnav_02.png"></image>
+          <text>个人</text>
+        </navigator>
+      </view>
+    </view>
+    <view class="foot_nav">
+      <view class="footnav_item cur">
+        <image src="/images/footnavcur_03.png"></image>
+        <text>牛人</text>
+      </view>
+    </view>
+  </view>
+</view>

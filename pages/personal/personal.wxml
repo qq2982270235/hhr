@@ -1,0 +1,87 @@
+<view class="container pb_150">
+  <!--用户信息-->
+  <view class="user_info">
+    <view class="info_left fl fs_14 color_f">
+      <text>姓名:东方彧卿</text>
+      <text>职业:设计主管</text>
+      <text>出生年月:2018-11-08</text>
+      <text>联系电话:13800000000</text>
+    </view>
+    <view class="info_right fr">
+      <image src="https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTK1HkZumyH9pM8J2hial7574FIYziaI72eJmasia60MQzgTPia1KdicLHrxPCEzficO9ZHBOicf1tSyduOVg/132"></image>
+    </view>
+  </view>
+  <!--导航-->
+  <view class="nav">
+    <view class="nav_list cur">
+      <image src="/images/perindex.png"></image>
+      <text>个人主页</text>
+    </view>
+    <view class="nav_list" bindtap="jumpMessage">
+      <image src="/images/chat_icon.png"></image>
+      <text>消息</text>
+    </view>
+    <view class="nav_list" bindtap="jumpRelease">
+      <image src="/images/release_icon.png"></image>
+      <text>发布</text>
+    </view>
+    <view class="nav_list border_none" bindtap="keepPersonMessage">
+      <image src="/images/sure_icon.png"></image>
+      <text>确定</text>
+    </view>
+  </view>
+  <!--个人信息-->
+  <view class="person_wrap">
+    <view class="user_list">
+      <view class="user_item" bindtap="sexSelect"><text>性别:{{sexText}}</text></view>
+      <view class="user_item" bindtap="marriageSelect"><text>婚姻状况:{{marriageText}}</text></view>
+      <view class="user_item"><text>籍贯:</text><input type="text" name="" value="" /></view>
+      <view class="user_item"><text>户口所在地:</text><input type="text" name="" value="" /></view>
+      <view class="user_item" bindtap="educationSelect"><text>学历:{{educationText}}</text></view>
+      <view class="user_item"><text>毕业日期:</text><input type="text" name="" value="" /></view>
+      <view class="user_item"><text>政治面貌:</text><input type="text" name="" value="" /></view>
+      <view class="user_item"><text>毕业院校:</text><input type="text" name="" value="" /></view>
+      <view class="user_item"><text>专业:</text><input type="text" name="" value="" /> </view>
+    </view>
+    <view class="user_title">个人能力信息</view>
+    <view class="user_list">
+      <view class="user_item"><text>英语水平:</text><input type="text" name="" value="" /></view>
+      <view class="user_item"><text>普通话:</text><input type="text" name="" value="" /></view>
+      <view class="user_item"><text>计算机:</text><input type="text" name="" value="" /></view>
+      <view class="user_item"><text>软件:</text><input type="text" name="" valu="" /></view>
+    </view>
+    <view class="user_title">社会经历信息</view>
+    <view class="user_list user_special">
+      <textarea placeholder="请输入详细信息" placeholder-style="color:#585858"></textarea>
+    </view>
+    <view class="user_title">合作意向</view>
+    <view class="user_list user_special">
+      <textarea placeholder="请输入详细信息" placeholder-style="color:#585858"></textarea>
+    </view>
+  </view>
+  <!--底部导航栏-->
+  <view class="footer">
+    <view class="foot_nav">
+      <view class="footnav_item">
+        <navigator hover-class="none" url="../index/index" open-type="redirect">
+          <image src="/images/footnav_01.png"></image>
+          <text>首页</text>
+        </navigator>
+      </view>
+    </view>
+    <view class="foot_nav">
+      <view class="footnav_item cur">
+        <image src="/images/footnavcur_02.png"></image>
+        <text>个人</text>
+      </view>
+    </view>
+    <view class="foot_nav">
+      <view class="footnav_item ">
+        <navigator hover-class="none" url="../ability/ability" open-type="redirect">
+          <image src="/images/footnav_03.png"></image>
+          <text>牛人</text>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>
